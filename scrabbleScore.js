@@ -27,8 +27,6 @@ const scrabbleScore = (word) => {
 		/(J|X)/g,
 		/(Q|Z)/g
 	];
-	
-	const scoreValues = [1, 2, 3, 4, 5, 6, 8, 10];
 		
 	const specialPossibleScores = [8, 10];
 	
